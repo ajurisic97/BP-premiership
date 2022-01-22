@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D52E3B0F-3745-D99F-2C9B-BFF8A2722A2A" name="Klub">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>185DE7FB-73D7-9BA2-279B-ADFC7E9FF8C1</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Klub" id="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>4FE3162E-A6B6-17FD-A92B-F418D8B33146</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KLUB_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KLUB_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_Kluba" id="CCD6FE89-2995-647C-B1E2-6ECF04DB4002">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>2E867254-F64E-E159-72C7-68EB87CE9451</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina_osnivanja" id="91AA1FDB-52C0-73C1-E087-D9645D671028">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>27217DD0-A0EA-0581-99FF-06807FE5C8D4</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijednost" id="137C5047-9B35-BFF3-CC0D-D514707259F9">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>0CBF31AE-188D-F925-0C9C-352EC591E920</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad_ID_Grad" id="772C5602-EC5B-CE48-853D-117841F21ACE">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:57:00 UTC</createdTime>
+<generatorID>FFEE3C37-CE06-B9EA-5F73-0C308AA26459</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4866F22A-7985-EF4F-A53A-FCDD3F7E6C5B" referredColumn="44F77D5E-C8B0-8177-1EDB-71BB862A0B81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4B05990-C860-962A-FD12-CF96B51D34F1" name="Klub_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>C712854A-0648-BA27-6F8C-FF17B8FF960C</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9F21BC7-F83C-191E-445E-37BAD651D29A" name="Klub_Grad_FK">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:57:00 UTC</createdTime>
+<generatorID>6AF39AEF-B002-409D-FED7-CEDDAE4D656C</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772C5602-EC5B-CE48-853D-117841F21ACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

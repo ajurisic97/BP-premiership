@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Drzava_Nogometas" directorySegmentName="seg_0" id="C959DA0B-4760-BD7B-DDE2-DF9CD21DFE02">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:17:07 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<sourcePk>DA5510D3-962D-967A-E08B-5DD299C18B15</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4802383E-FEE4-F7A8-CF95-0DB2F0AF4574</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5FF16D5-56BE-38F2-EE11-EBF15978118F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

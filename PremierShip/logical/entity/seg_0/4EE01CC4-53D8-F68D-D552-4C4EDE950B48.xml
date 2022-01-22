@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EE01CC4-53D8-F68D-D552-4C4EDE950B48" name="Sponzor">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:55:17 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Sponzor" id="111F7803-1CFB-9D02-DDDA-49BE42BD5D26">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:55:31 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_Tvrtke" id="A0012F50-7C57-FD70-DDCB-CF1FFF1C04FD">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:55:52 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06D264B2-5045-DF0C-8528-13520817E4D6" name="Sponzor PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:55:35 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>111F7803-1CFB-9D02-DDDA-49BE42BD5D26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

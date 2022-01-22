@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="257BDF3D-DD5E-B884-A712-94693ED9F2EA" name="Stadion">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:46:48 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Stadion" id="D6660A68-CF21-3112-EB0F-B210EE02DE29">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:47:07 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_Stadiona" id="391BBDC3-A0D8-37F7-13DC-24CA9D75D1D9">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:47:32 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kapacitet" id="4C3DE372-08BD-127E-CBC5-BFC72D2E68A9">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:47:41 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Grad" id="A774D782-E7D5-0D96-1E34-2191F76B7424">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:13:34 UTC</createdTime>
+<generatorID>A41010C0-F9A8-F2CF-2B68-1C2E9B9BAC57</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6C6C355A-83F1-65D8-C3C5-3FED5F23F760</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6AAFC71C-25EF-7F8A-48A6-0B10681968FD" name="Stadion PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:47:16 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6660A68-CF21-3112-EB0F-B210EE02DE29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

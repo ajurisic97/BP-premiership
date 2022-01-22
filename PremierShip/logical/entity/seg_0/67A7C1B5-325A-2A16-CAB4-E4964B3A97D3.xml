@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67A7C1B5-325A-2A16-CAB4-E4964B3A97D3" name="Sponzor_Klub">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:22:01 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SponzorKlub" id="CB01E551-F8CC-841F-2C12-9CCC7862811F">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:24:18 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vrijednost_Sponzorstva" id="CDA43EDF-78EA-C73A-000B-A133B575A234">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:22:38 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sponzor" id="ECE1B896-0284-2C2E-EAD3-9046117F685A">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:23:03 UTC</createdTime>
+<generatorID>1CA03149-3F4A-927E-B9C4-76F1F8848A29</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>111F7803-1CFB-9D02-DDDA-49BE42BD5D26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Klub" id="4B2C085C-D404-6E55-5F1A-18BE316F2CF3">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:23:09 UTC</createdTime>
+<generatorID>1DC6E03C-4E67-B3B6-E716-7C4507CE4C92</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>4FE3162E-A6B6-17FD-A92B-F418D8B33146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pocetak_Ugovora" id="3FFF58B9-F7A9-884A-937D-7407B2E7767A">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:33:34 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kraj_Ugovora" id="33C185AC-D227-3866-25E8-BBDF0ED76C1C">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:33:53 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B03358F6-8ECC-3B95-0F3D-6798F88D87E8" name="Sponzor_Klub PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:22:30 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB01E551-F8CC-841F-2C12-9CCC7862811F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

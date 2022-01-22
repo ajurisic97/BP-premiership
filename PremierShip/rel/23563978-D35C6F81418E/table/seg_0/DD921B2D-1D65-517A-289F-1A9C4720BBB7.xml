@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD921B2D-1D65-517A-289F-1A9C4720BBB7" name="Odjel">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>D97D531B-7CAC-0358-F458-6CAAB988B13D</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Odjel" id="F294A00B-5280-E570-307A-8B42C1C5AB7F">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>238D3853-600C-3F18-BAB4-E76DD73E9E13</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ODJEL_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ODJEL_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_Odjela" id="6CC0B64A-2044-ECAF-7E59-B9F774D226C2">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>58EAE47F-3374-AB87-B412-0D5438B8BB1E</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F6288A2-23B9-8C37-0667-D70758A9F2B8" name="Odjel_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1722A565-F65C-5EF9-C3E7-0D13DFDF7705</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F294A00B-5280-E570-307A-8B42C1C5AB7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

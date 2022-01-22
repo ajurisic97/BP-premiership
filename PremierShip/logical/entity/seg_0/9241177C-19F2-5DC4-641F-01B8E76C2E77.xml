@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9241177C-19F2-5DC4-641F-01B8E76C2E77" name="Utakmica">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:56:26 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Utakmica" id="81B2A3CF-D607-60E9-AAEA-53FBD1B6143B">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:56:54 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Golovi_Domacina" id="2166F799-567C-A60C-3A3B-5BC9E197CE12">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:57:05 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Golovi_Gosti" id="FF0838A5-7574-9B64-9A68-8EFEEDA85D13">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:58:30 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_Gledatelja" id="1EDE380B-CD38-621F-574D-85A19E4C030B">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:58:48 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Igranja" id="9B053B30-0C6E-3B24-7A46-75D61E82C8C9">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:59:02 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Domacin" id="37944AEA-7818-AC55-F1B0-78EDFF152F5F">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:18:38 UTC</createdTime>
+<generatorID>1968084F-5C37-188C-3332-70ED7A22EECF</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>4FE3162E-A6B6-17FD-A92B-F418D8B33146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gost" id="90276BEA-4EA6-89C6-2214-F6284F4D578F">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:18:49 UTC</createdTime>
+<generatorID>D98386F7-9C93-7BFB-3742-C5A37D467998</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>4FE3162E-A6B6-17FD-A92B-F418D8B33146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sudac" id="3DE6AE01-88D6-9AC6-F081-72D5DF7DA15A">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:19:42 UTC</createdTime>
+<generatorID>4CD67DD0-96AD-41B3-6A6F-8A951FD87E99</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>86859930-EEA8-2501-EBF0-C3EED6D5E6AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Stadion" id="D2620E24-1C3A-C5CF-342A-938EE15CB8EF">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 09:02:31 UTC</createdTime>
+<generatorID>29670BCA-8291-DDAE-6737-25C3FB34E8C2</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>D6660A68-CF21-3112-EB0F-B210EE02DE29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AFD1474-07E4-570F-68C2-CF1BA9834D85" name="Utakmica PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:57:03 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81B2A3CF-D607-60E9-AAEA-53FBD1B6143B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

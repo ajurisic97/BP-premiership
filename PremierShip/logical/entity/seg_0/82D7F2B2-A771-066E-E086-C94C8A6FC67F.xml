@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82D7F2B2-A771-066E-E086-C94C8A6FC67F" name="Tablica">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:53:48 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="E3DF4C0D-3736-9D13-5588-97613007B756" value="true"/>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Tablica" id="E550FA40-2FA6-8B5C-5AA9-1FC59AB3ABB8">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:53:54 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="E3DF4C0D-3736-9D13-5588-97613007B756" value="true"/>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Klub" id="9BAC5B75-21D0-91A3-C263-D881F9EBDDDD">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:16:26 UTC</createdTime>
+<generatorID>503EAAB0-734B-EADC-A70F-2CFE7E352699</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="E3DF4C0D-3736-9D13-5588-97613007B756" value="true"/>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>4FE3162E-A6B6-17FD-A92B-F418D8B33146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bodovi" id="6C54820F-3033-B0EE-6662-B251A00762A3">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-24 22:46:23 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="E3DF4C0D-3736-9D13-5588-97613007B756" value="true"/>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3C4E7FE-7C47-3840-F417-723B5E4AAF3F" name="Tablica PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:54:19 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3DF4C0D-3736-9D13-5588-97613007B756" value="true"/>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E550FA40-2FA6-8B5C-5AA9-1FC59AB3ABB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

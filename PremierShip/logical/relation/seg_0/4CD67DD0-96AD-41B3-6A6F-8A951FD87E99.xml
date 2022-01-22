@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sudac-Utakmica" directorySegmentName="seg_0" id="4CD67DD0-96AD-41B3-6A6F-8A951FD87E99">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:19:42 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<sourcePk>5BC70D5D-BFCD-3E2F-AB44-AD0F68CA2257</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B402D045-E31E-65EF-C45F-E3F014038F4A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9241177C-19F2-5DC4-641F-01B8E76C2E77</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

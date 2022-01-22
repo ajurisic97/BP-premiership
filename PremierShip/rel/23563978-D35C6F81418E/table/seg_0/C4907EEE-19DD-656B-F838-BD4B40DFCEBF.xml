@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4907EEE-19DD-656B-F838-BD4B40DFCEBF" name="Pozicija_Nogometas">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>ECACE55A-DBC7-B8E0-999B-D4C840DD8615</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<ordsAlias>pozicija_nogometas</ordsAlias>
+<abbreviation>PozNog</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PozNog" id="8366198E-8560-D71C-51CA-91BF0C37B888">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>2434F0CC-05FE-C829-58BE-5C5A537CA9C3</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igrac_ID_Igrac" id="2D810D64-63E9-D12A-B126-971C5204A159">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>93B68EB1-6287-9E66-2CAD-5F88050E1DA2</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7751521-F3C1-2381-3FCE-F9E22E070591" referredColumn="6C8EAE96-A60A-207E-D9EF-EC0DC2BBF202"/>
+</associations>
+</Column>
+<Column name="ID_Pozicija" id="BC5B844A-1D3A-E2A7-8C2B-ECBBBA5D6656">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>47A83619-30DC-2A27-FF15-238AFAF4C7AD</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16263F02-C90D-1A3B-0C6E-CA89998C9C38" referredColumn="C4A8FED4-F448-B650-2D43-B776FEA17938"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6520D4BF-794E-A4D0-9F51-5E462BAD80A2" name="Poz_Igrac_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>8FF33436-D6A4-8E14-B492-A1EFFF19697B</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8366198E-8560-D71C-51CA-91BF0C37B888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06BA5220-9E8D-218B-3A30-D0C8CC21F0D8" name="Poz_Nog_Nog_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>16A355FA-8FDD-6BEE-F148-FD24D63AF908</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D810D64-63E9-D12A-B126-971C5204A159"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DA21CC7-E1B0-41C1-EA00-7F8524F21DB5" name="Poz_Nog_Poz_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-17 21:31:50 UTC</createdTime>
+<generatorID>63D57103-3AE6-A94C-E041-5EE08DDDD3EB</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC5B844A-1D3A-E2A7-8C2B-ECBBBA5D6656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

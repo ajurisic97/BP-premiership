@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9413D2D0-C148-2B90-39BE-8CF8DB86CC4D" name="Nogometas">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>D5FF16D5-56BE-38F2-EE11-EBF15978118F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<ordsAlias>nogometas</ordsAlias>
+<abbreviation>nog</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Nogometas" id="6C8EAE96-A60A-207E-D9EF-EC0DC2BBF202">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>514951B7-6358-1E2A-AE56-ACFE173EACA7</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>IGRAC_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>IGRAC_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime_Nogometas" id="778180BF-812D-3215-ECA4-E50CC68CF0C5">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>51D8AE2C-4EEE-1274-5248-838E1E0041F6</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime_Nogometas" id="2AD44EF6-38AA-88F5-8800-ECBFF2031D4A">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>D81A99A9-0D3B-B1F9-9BA5-77731E70DE3A</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Rodenja" id="09E3851D-91B5-1EF2-5605-5F27115B8290">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>C4BD71FC-7FAB-5162-F9B6-98D71EAE379D</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_ID_Klub" id="D0A19C45-E15C-CD15-54FD-8EF3168EB8BB">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>2A702E70-10CC-47E6-56FE-B9A3FFCD2D7B</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D3F85EA-3EB0-71EB-A9F5-2A5537F4B975" referredColumn="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81"/>
+</associations>
+</Column>
+<Column name="Drzava_ID_Drzava" id="6B54021E-8D50-DDEE-2E55-CADFFED9E7E3">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>20FB1449-ED49-9B45-764C-68EB1F479DDA</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48360296-13E0-70DF-EBAE-6D2DC46FD4D8" referredColumn="45744F43-0BDE-A1A6-BD70-8F5BC9FC917F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7602E613-85E1-7309-15C1-73946221BA8E" name="Igrac_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>27BFCE1E-34DA-5183-AD54-49D9B3945CCB</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C8EAE96-A60A-207E-D9EF-EC0DC2BBF202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC3A1D6E-5A89-3305-F8EB-19066FA3E91B" name="Igrac_Drzava_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>C959DA0B-4760-BD7B-DDE2-DF9CD21DFE02</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B54021E-8D50-DDEE-2E55-CADFFED9E7E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="954704F8-67AA-EA4B-DF00-DF922C66AA63" name="Igrac_Klub_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>B4C7DEC1-2665-5429-FE73-E0254FFFF72D</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A19C45-E15C-CD15-54FD-8EF3168EB8BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

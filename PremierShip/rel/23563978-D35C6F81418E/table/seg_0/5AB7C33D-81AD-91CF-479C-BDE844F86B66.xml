@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AB7C33D-81AD-91CF-479C-BDE844F86B66" name="Sponzor_Klub">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>67A7C1B5-325A-2A16-CAB4-E4964B3A97D3</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SponzorKlub" id="7C736AC5-C380-5032-ADFB-D1BE809B2BEE">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>CB01E551-F8CC-841F-2C12-9CCC7862811F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijednost_Sponzorstva" id="CF817C71-8637-D324-2EDC-20C8F0C40FB9">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>CDA43EDF-78EA-C73A-000B-A133B575A234</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sponzor_ID_Sponzor" id="DAA43E8B-64B5-FBAF-2AB2-A3E4CD8F61C4">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>ECE1B896-0284-2C2E-EAD3-9046117F685A</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D8790BF-24EF-E5E9-E180-DA146A6376EE" referredColumn="1001C3DF-3A67-FD70-DE51-6319E59C00E3"/>
+</associations>
+</Column>
+<Column name="Klub_ID_Klub" id="641F3A44-1D45-560A-B73F-D8A35613DCC8">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>4B2C085C-D404-6E55-5F1A-18BE316F2CF3</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="389FA2D0-B7A5-8C43-937E-9C8BCDF02343" referredColumn="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81"/>
+</associations>
+</Column>
+<Column name="Pocetak_Ugovora" id="FF84B500-226A-94D6-5597-560A2DA7C18C">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:44:52 UTC</createdTime>
+<generatorID>3FFF58B9-F7A9-884A-937D-7407B2E7767A</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj_Ugovora" id="2800C070-56E7-8F07-7E8E-CE1ABC252BFF">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:44:52 UTC</createdTime>
+<generatorID>33C185AC-D227-3866-25E8-BBDF0ED76C1C</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C7F117C-E56D-F6CD-64DE-36DA133F5D52" name="Sponzor_Klub_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>B03358F6-8ECC-3B95-0F3D-6798F88D87E8</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C736AC5-C380-5032-ADFB-D1BE809B2BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="531C858C-F898-42FB-C3F7-3FEF73873C96" name="Sponzor_Klub_Sponzor_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1CA03149-3F4A-927E-B9C4-76F1F8848A29</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAA43E8B-64B5-FBAF-2AB2-A3E4CD8F61C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5E68CE3-DB3A-8528-94BD-D470EF93BE75" name="Sponzor_Klub_Klub_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1DC6E03C-4E67-B3B6-E716-7C4507CE4C92</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="641F3A44-1D45-560A-B73F-D8A35613DCC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

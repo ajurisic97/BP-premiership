@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F7DEA8C-A140-F3C3-25F1-4F077D67424A" name="Grad">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>900A0503-CF2E-043F-1F1B-FE1A1A24FBB6</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Grad" id="44F77D5E-C8B0-8177-1EDB-71BB862A0B81">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>6C6C355A-83F1-65D8-C3C5-3FED5F23F760</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>GRAD_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>GRAD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_Grad" id="CB0A2E4C-6C88-4E27-89F6-1DDDBA583E95">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>8BD8CAF3-F49D-5B4B-C7C8-48F9D15DDB2F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drzava_ID_Drzava" id="501C7C1B-A298-82F7-66C9-692F4A5BDADA">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>8F183A03-2E3C-DD6F-FF3A-02D73B71C7B6</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B30D3912-C3D6-E27B-B67F-523CC1E0BBE5" referredColumn="45744F43-0BDE-A1A6-BD70-8F5BC9FC917F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE0F5706-3DB5-E147-96E7-A3817BAD2FD0" name="Grad_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1FD919E6-F622-F782-444F-E5D10B98E704</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F77D5E-C8B0-8177-1EDB-71BB862A0B81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9DE24DB-849E-F410-BD0B-387A62863149" name="Grad_Drzava_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1016ADD0-7153-BB0F-6486-A798A7DC57E6</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="501C7C1B-A298-82F7-66C9-692F4A5BDADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

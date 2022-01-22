@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96D6F2BD-1E14-9946-0342-5231BB946898" name="Utakmica">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>9241177C-19F2-5DC4-641F-01B8E76C2E77</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Utakmica" id="48527FE6-E7B5-A56B-C798-EC0CD2D44FBF">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>81B2A3CF-D607-60E9-AAEA-53FBD1B6143B</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>UTAKMICA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>UTAKMICA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Golovi_Domacina" id="FA87D734-D820-C442-FA86-80A0DFD481CE">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>2166F799-567C-A60C-3A3B-5BC9E197CE12</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Golovi_Gosti" id="27E87BFB-418D-3458-38E3-752A03CE6747">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>FF0838A5-7574-9B64-9A68-8EFEEDA85D13</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Gledatelja" id="D90E2C6D-7DD2-6A6E-5111-1125B589FCEB">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1EDE380B-CD38-621F-574D-85A19E4C030B</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Igranja" id="008D5D45-C2C1-6800-CC6C-B213F4DB9BB0">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>9B053B30-0C6E-3B24-7A46-75D61E82C8C9</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadion_ID_Stadion" id="096D112D-1139-EB77-6BBF-75ABA07CF8EB">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>02DD3168-9944-ED72-4DAF-56A6DF61504E</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9240660-830E-400E-E2D8-2BE37AEAFBD5" referredColumn="C3CC17D1-C2FD-B830-24AD-09A7AF2DA5FC"/>
+</associations>
+</Column>
+<Column name="Klub_ID_Klub" id="04F7B399-1191-D2FF-FA73-D72465B7C9C1">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>37944AEA-7818-AC55-F1B0-78EDFF152F5F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7838CA42-3875-8CB2-4FF6-E888C6B4469B" referredColumn="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81"/>
+</associations>
+</Column>
+<Column name="Klub_ID_Klub2" id="334A8A7E-9EE4-3FB2-F2C3-7A55BF2A95EB">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>90276BEA-4EA6-89C6-2214-F6284F4D578F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20E8A7A0-8F79-2FB9-BA58-777B8B5287FD" referredColumn="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81"/>
+</associations>
+</Column>
+<Column name="Sudac_ID_Sudac" id="2C0E9DFE-5E21-CFDD-083A-B9432EA5F86A">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>3DE6AE01-88D6-9AC6-F081-72D5DF7DA15A</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACFB3593-D31A-FDDD-B709-3A21C1E936E4" referredColumn="5AB1B2F5-C29A-BB04-1306-0C0F104866C2"/>
+</associations>
+</Column>
+<Column name="ID_Stadion" id="E3C0AE2E-F242-F388-5C4D-BB4A6CCC8841">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 09:02:46 UTC</createdTime>
+<generatorID>D2620E24-1C3A-C5CF-342A-938EE15CB8EF</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDA80946-A513-4787-6C30-C7C411D1D042" name="Utakmica_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>4AFD1474-07E4-570F-68C2-CF1BA9834D85</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48527FE6-E7B5-A56B-C798-EC0CD2D44FBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="258026B4-6F88-AAB0-D664-6C2265323610" name="Utakmica__IDX">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>29670BCA-8291-DDAE-6737-25C3FB34E8C2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="096D112D-1139-EB77-6BBF-75ABA07CF8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6928C16E-51D5-E620-F9FA-21444DA9DEED" name="Utakmica_Klub_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1968084F-5C37-188C-3332-70ED7A22EECF</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04F7B399-1191-D2FF-FA73-D72465B7C9C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="665C6A6B-A472-AFFC-E3AE-7E29D5D7BCFB" name="Utakmica_Klub_FKv1">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>D98386F7-9C93-7BFB-3742-C5A37D467998</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="334A8A7E-9EE4-3FB2-F2C3-7A55BF2A95EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BE2A898-5AB5-E70E-DF08-1E13A350652E" name="Utakmica_Sudac_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>4CD67DD0-96AD-41B3-6A6F-8A951FD87E99</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C0E9DFE-5E21-CFDD-083A-B9432EA5F86A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B5B2089-3C22-26B8-0E20-D673F1EDDC61" name="Utakmica_Stadion_FK">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:59:03 UTC</createdTime>
+<generatorID>29670BCA-8291-DDAE-6737-25C3FB34E8C2</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096D112D-1139-EB77-6BBF-75ABA07CF8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

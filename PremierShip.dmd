@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PremierShip" id="7AF0C466-1903-E1D5-D2B2-8090350B7331" version="3.5">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:36:51 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7AF0C466-1903-E1D5-D2B2-8090350B7331</designId>
+</OSDM_Design>

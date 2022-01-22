@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tablica-Ekipa" directorySegmentName="seg_0" id="503EAAB0-734B-EADC-A70F-2CFE7E352699">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:16:26 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<sourcePk>C712854A-0648-BA27-6F8C-FF17B8FF960C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>185DE7FB-73D7-9BA2-279B-ADFC7E9FF8C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>82D7F2B2-A771-066E-E086-C94C8A6FC67F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

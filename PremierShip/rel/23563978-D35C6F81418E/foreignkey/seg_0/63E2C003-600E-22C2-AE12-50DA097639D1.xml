@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63E2C003-600E-22C2-AE12-50DA097639D1" containerWithKeyObject="F233BA6B-0EEC-3376-EC68-0EC88F335773" localFKIndex="456055B4-B200-F1FC-23FF-A91676B6A336" name="Stat_Igrac_Igrac_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>1A6A4887-F6C6-CF3A-2A9D-29235CB5DC66</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<referredTableLongName>Nogometas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9413D2D0-C148-2B90-39BE-8CF8DB86CC4D</referredTableID>
+<keyObject>7602E613-85E1-7309-15C1-73946221BA8E</keyObject>
+<referredKeyID>7602E613-85E1-7309-15C1-73946221BA8E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_Nogometas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

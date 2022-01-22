@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="876F878A-6EAB-5E6F-772A-234360EFEB03" name="Osoblje">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:48:40 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Osoblje" id="A530D125-E046-338C-32B4-3B65DC19884F">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:48:45 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime_Zaposlenika" id="D6D968F8-2E72-4715-E20B-1623123A13D0">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:49:01 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime_Zaposlenika" id="DEA6E29D-4E13-BD8F-5C4D-557B7E3D2CD9">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:49:29 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Odjel" id="D435573B-FB44-0793-DFAD-237A6923A98D">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:16:00 UTC</createdTime>
+<generatorID>3E1DAB12-9F72-8FE6-332A-36A7FC19D423</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>238D3853-600C-3F18-BAB4-E76DD73E9E13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Klub" id="E1A78016-BC54-6141-BCC1-44EC3A207156">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:32:55 UTC</createdTime>
+<generatorID>FA88E694-4633-91C6-7D09-D8D1DA80F40A</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>4FE3162E-A6B6-17FD-A92B-F418D8B33146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F70A7B7-2A41-B05E-6DC7-73B951C08B8F" name="Osoblje PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:48:55 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A530D125-E046-338C-32B4-3B65DC19884F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

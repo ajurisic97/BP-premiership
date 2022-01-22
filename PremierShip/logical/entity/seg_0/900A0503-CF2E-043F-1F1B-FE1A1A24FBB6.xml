@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="900A0503-CF2E-043F-1F1B-FE1A1A24FBB6" name="Grad">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:46:03 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Grad" id="6C6C355A-83F1-65D8-C3C5-3FED5F23F760">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:46:10 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_Grad" id="8BD8CAF3-F49D-5B4B-C7C8-48F9D15DDB2F">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:46:27 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Drzava" id="8F183A03-2E3C-DD6F-FF3A-02D73B71C7B6">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:12:20 UTC</createdTime>
+<generatorID>1016ADD0-7153-BB0F-6486-A798A7DC57E6</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<referedAttribute>C70A94FB-6CAA-B0BD-F2AB-EC5CBE66FD11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FD919E6-F622-F782-444F-E5D10B98E704" name="Grad PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 20:46:21 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C6C355A-83F1-65D8-C3C5-3FED5F23F760</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

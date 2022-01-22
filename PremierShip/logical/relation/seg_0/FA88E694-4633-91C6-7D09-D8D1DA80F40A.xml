@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Osoblje_Klub" directorySegmentName="seg_0" id="FA88E694-4633-91C6-7D09-D8D1DA80F40A">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:26:05 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<sourcePk>0F70A7B7-2A41-B05E-6DC7-73B951C08B8F</sourcePk>
+<targetPk>C712854A-0648-BA27-6F8C-FF17B8FF960C</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>876F878A-6EAB-5E6F-772A-234360EFEB03</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>185DE7FB-73D7-9BA2-279B-ADFC7E9FF8C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

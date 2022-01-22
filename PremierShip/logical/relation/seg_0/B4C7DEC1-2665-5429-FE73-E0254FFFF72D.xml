@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nogometas-Klub" directorySegmentName="seg_0" id="B4C7DEC1-2665-5429-FE73-E0254FFFF72D">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:16:40 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<sourcePk>C712854A-0648-BA27-6F8C-FF17B8FF960C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>185DE7FB-73D7-9BA2-279B-ADFC7E9FF8C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5FF16D5-56BE-38F2-EE11-EBF15978118F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odjel-Zaposlenik" directorySegmentName="seg_0" id="3E1DAB12-9F72-8FE6-332A-36A7FC19D423">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:16:00 UTC</createdTime>
+<ownerDesignName>PremierShip</ownerDesignName>
+<engineerTo>
+<item key="23563978-C759-A26F-06D1-D35C6F81418E" value="true"/>
+</engineerTo>
+<sourcePk>1722A565-F65C-5EF9-C3E7-0D13DFDF7705</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D97D531B-7CAC-0358-F458-6CAAB988B13D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>876F878A-6EAB-5E6F-772A-234360EFEB03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

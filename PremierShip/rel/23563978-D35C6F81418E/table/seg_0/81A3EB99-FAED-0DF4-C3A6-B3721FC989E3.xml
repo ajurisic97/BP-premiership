@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81A3EB99-FAED-0DF4-C3A6-B3721FC989E3" name="Osoblje">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>876F878A-6EAB-5E6F-772A-234360EFEB03</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Osoblje" id="E94A04DF-0A5C-BEC9-2BFE-8587B8881100">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>A530D125-E046-338C-32B4-3B65DC19884F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>OSOBLJE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>OSOBLJE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime_Zaposlenika" id="AC4ABE8D-6C14-76BB-117D-1739FDED4462">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>D6D968F8-2E72-4715-E20B-1623123A13D0</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime_Zaposlenika" id="D77E98C3-549A-E68F-D89A-F21775EC3213">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>DEA6E29D-4E13-BD8F-5C4D-557B7E3D2CD9</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odjel_ID_Odjel" id="AE6AA1B2-2AFA-E02B-6CEA-AF08A3934744">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>D435573B-FB44-0793-DFAD-237A6923A98D</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74D33405-2A8F-C456-BF47-4F597DC8E087" referredColumn="F294A00B-5280-E570-307A-8B42C1C5AB7F"/>
+</associations>
+</Column>
+<Column name="Klub_ID_Klub" id="E49623D9-9B89-A755-EADA-17CA4F2C961D">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:44:52 UTC</createdTime>
+<generatorID>E1A78016-BC54-6141-BCC1-44EC3A207156</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B88364B5-FA85-A660-28DF-57FBABF316E7" referredColumn="09E1D1B0-37D7-BE60-7888-FC82BDAAFF81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67F498F7-5235-FF76-84A1-CC99BD6B2BC3" name="Osoblje_PK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>0F70A7B7-2A41-B05E-6DC7-73B951C08B8F</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94A04DF-0A5C-BEC9-2BFE-8587B8881100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D90D04A-024B-91A5-ABD1-75AF0E253474" name="Osoblje_Odjel_FK">
+<createdBy>4nd3lo</createdBy>
+<createdTime>2018-05-16 21:31:11 UTC</createdTime>
+<generatorID>3E1DAB12-9F72-8FE6-332A-36A7FC19D423</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE6AA1B2-2AFA-E02B-6CEA-AF08A3934744"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3C828DF-42CC-ECAB-13BB-4BD21093995A" name="Osoblje_Klub_FK">
+<createdBy>student</createdBy>
+<createdTime>2018-05-18 08:44:52 UTC</createdTime>
+<generatorID>FA88E694-4633-91C6-7D09-D8D1DA80F40A</generatorID>
+<ownerDesignName>PremierShip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49623D9-9B89-A755-EADA-17CA4F2C961D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
